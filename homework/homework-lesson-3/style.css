@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    background-color: rgb(15, 108, 201);
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+li{
+    float: right;
+}
+
+li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px 15px 25px;
+    font-size: 20px;
+}
+
+.nav-element:hover{
+    background-color: rgba(169, 169, 169, 0.702);
+    box-shadow: 1px 1px 10px 10px white;
+    text-shadow: 2px 2px black;
+}

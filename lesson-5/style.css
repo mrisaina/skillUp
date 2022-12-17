@@ -1,0 +1,53 @@
+.fixed {
+    width: 800px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: black;
+    margin: 20px;
+}
+
+.rubber {
+    width: 40%;
+    display: inline-block;
+    height: 100px;
+    border: 1px solid black;
+    background-color: black;
+    margin: 20px;
+}
+
+.adaptive {
+    width: 40%;
+    display: inline-block;
+    height: 100px;
+    border: 1px solid black;
+    background-color: black;
+    margin: 20px;
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+    .adaptive {
+        width: 50%;
+        display: flex;
+        height: 100px;
+        border: 1px solid black;
+        background-color: yellowgreen;
+        margin: 20px;
+        color: white;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .adaptive {
+        background-color: rebeccapurple;
+        color: yellow;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+    .adaptive {
+        background: lightyellow;
+        font-style: italic;
+        color: green;
+        overflow: hidden;
+    }
+}

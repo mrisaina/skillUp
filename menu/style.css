@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    background-color: #333;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.active{
+    background-color: red;
+}
+
+a:hover{
+    color: yellow;
+}
+
+/* main{
+    width: 800px;
+    height: 600px;
+    border: 1px solid black;
+    margin: auto;
+    box-shadow: 0px 5px 10px 10px red;
+}
+
+form{
+    width: 500px;
+    height: 600px;
+    background-color: rgb(243, 234, 213);
+    margin: auto;
+    position: relative;
+}
+
+.name{
+    position: absolute;
+    top: 130px;
+    left: 50px;
+}
+
+.email{
+    position: absolute;
+    top: 130px;
+    left: 250px;
+}
+
+.subject{
+    position: absolute;
+    top: 170px;
+    left: 50px;
+    width: 348px;
+    height: 80px;
+    padding: 0px;
+}
+
+.subject::placeholder{
+    padding: -20px;
+}
+
+textarea{
+    position: absolute;
+    top: 260px;
+    left: 50px;
+}
+
+button{
+    position: absolute;
+    top: 360px;
+    left: 350px;
+} */
+
+.first{
+    width: 800px;
+    height: 600px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.first-div{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 10px;
+    transition: all .5s;
+}
+
+p{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+button{
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+.first-div:hover{
+    width: 330px;
+    height: 220px;
+
+    background-color: #333;
+    color: white;
+}
+
+button:hover{
+    box-shadow: 5px 5px 5px rgb(190, 243, 242);
+}
+
+/* .second{
+    width: 1000px;
+    height: 800px;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+}
+
+.second-div{
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.second-div:first-child{
+    background-color: #333;
+}
+
+.second-div:nth-child(2){
+    background-color: aliceblue;
+} 
+
+.second-div:nth-child(3){
+    background-color: aqua;
+}
+
+.second-div:nth-child(4){
+    background-color: blue ;
+}
+
+.second-div:nth-child(5){
+    background-color: yellowgreen ;
+}
+
+.second-div:nth-child(6){
+    background-color: blueviolet ;
+}
+
+.second-div:nth-child(7){
+    background-color:coral;
+} */

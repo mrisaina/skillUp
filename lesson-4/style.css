@@ -1,0 +1,24 @@
+/* div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.relative{
+    position: relative;
+    left: 100px;
+}
+
+.absolute{
+    position: absolute;
+} */
+
+.fixed{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-left: 50px;
+}

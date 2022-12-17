@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Applying for the Position</title>
+</head>
+
+<body>
+    <h1 style="text-align: center">Form Applying for the Position</h1>
+    <br><br>
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter name">
+
+        <br><br>
+
+        <label for="email">Gmail:</label>
+        <input type="email" id="email" placeholder="Enter email" pattern=".+@gmail\.com">
+
+        <br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" placeholder="Enter phone">
+
+        <br><br>
+
+        <label for="birth-date">Date of birth:</label>
+        <input type="date" id="birth-date">
+
+        <br>
+
+        <p>Position:</p>
+        <select>
+            <option value="">QA</option>
+            <option value="">Front-End</option>
+            <option value="">Back-End</option>
+        </select>
+
+        <br>
+
+        <p>Experience:</p>
+        <input type="radio" name="experience" id="0"> <label for="0">Without experience</label>
+        <br>
+        <input type="radio" name="experience" id="less-than-1"> <label for="less-than-1">Less than 1</label>
+        <br>
+        <input type="radio" name="experience" id="1-2"> <label for="1-2">1-2</label>
+        <br>
+        <input type="radio" name="experience" id="more-than-2"> <label for="more-than-2">More than 2</label>
+
+        <br><br>
+
+        <label for="url">Add link to Linkedln:</label>
+        <input type="url" id="url">
+
+        <br><br><br>
+
+        <label for="file">Attach your CV:</label>
+        <br><br>
+        <input type="file" id="file">
+
+        <br></br><br>
+
+        <p>Select convinient way to contact:</p>
+        <input type="checkbox" id="contact-way-1">
+        <label for="contact-way-1">Email</label>
+        <input type="checkbox" id="contact-way-2" value="Phone">
+        <label for="contact-way-2">Phone</label>
+
+        <br><br>
+
+        <p>Select convinient time to contact:</p>
+        <input type="time" id="time">
+
+        <br><br><br>
+
+        <button type="submit" style="width:90px;height:30px;">Send</button>
+        <button type="reset" style="width:90px;height:30px;">Reset</button>
+    </form>
+</body>
+
+</html>

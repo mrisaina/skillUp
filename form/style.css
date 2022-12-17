@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 12px;
+    color: #777;
+    font-weight: 100;
+    background-color: green;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+#contact {
+    background: rgba(255, 255, 255, 0.976);
+    padding: 25px;
+    margin: 150px 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 5px 0 15px;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    padding: 0;
+    width: 100%;
+}
+
+#input-name,
+#input-email,
+#input-number,
+#input-website,
+#input-textarea,
+#input-button {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #fff;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+#input-textarea {
+    height: 100px;
+    width: 100%;
+    resize: none;
+}
+
+#input-button {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: green;
+    color: white;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#input-button:hover {
+    background: rgb(18, 144, 158);
+    color: whitesmoke;
+}
+
+.copyright {
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    .container {
+        max-width: 80%;
+    }
+
+    h1, h2 {
+        color: rgb(55, 54, 51);
+        font-weight: 600;
+    }
+
+    #contact {
+        background: rgb(191, 193, 168);
+    }
+
+    body {
+        color: #777;
+        background-color: rgba(114, 108, 67, 0.631); 
+    }
+
+    #input-button {
+        background: rgba(102, 114, 27, 0.631); 
+        color: white;
+    }
+
+    #input-button:hover {
+        background: rgb(196, 196, 102);
+        color: black;
+    }
+    
+    .copyright {
+        color: #000;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 800px) {
+    .container {
+        max-width: 90%;
+    }
+
+    h1, h2 {
+        color: rgb(85, 20, 20);
+        font-weight: 600;
+    }
+
+    #contact {
+        background: rgb(216, 179, 179);
+    }
+
+    body {
+        color: rgb(97, 41, 41);
+        background-color: rgba(115, 62, 62, 0.631); 
+    }
+
+    #input-button {
+        background: rgba(115, 62, 62, 0.631); 
+        color: white;
+    }
+
+    #input-button:hover {
+        background: rgb(238, 175, 175);
+        color: black;
+    }
+    
+    .copyright {
+        color: #000;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+    h1, h2 {
+        color: rgb(7, 84, 25);
+        font-weight: 600;
+        text-shadow: rgb(42, 215, 39) 1px 0 10px;
+    }
+
+    .copyright {
+        font-size: 16px;
+        color: rgb(24, 138, 32);
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    h1, h2 {
+        color: rgb(40, 61, 29);
+        text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    }
+}
