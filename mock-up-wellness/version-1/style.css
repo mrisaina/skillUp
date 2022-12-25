@@ -542,7 +542,6 @@ footer .article-header {
     flex-flow: column;
     justify-content: flex-start;
     margin: 0;
-    /* padding-right: 80px; */
 }
 
 .footer-ul li {
