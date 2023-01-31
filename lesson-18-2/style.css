@@ -356,7 +356,9 @@ button[name='cart'] {
 .zoom,
 .like {
     position: absolute;
-    margin-left: 230px;
+    width: 100%;
+    text-align: right;
+    padding-right: 10px;
 }
 
 .zoom {
