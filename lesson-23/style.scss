@@ -1,0 +1,25 @@
+$color-primary: rgb(224, 22, 190);
+$color-secondary: red;
+
+@mixin flex($justify, $align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+.tab-content {
+    h2 {
+        color: $color-primary;
+        @include flex(space-between, center);
+        span {
+            color: $color-secondary;
+            &:hover {
+                color: $color-primary;
+            }
+        }
+    }
+
+    .text {
+        color: $color-primary;
+    }
+}

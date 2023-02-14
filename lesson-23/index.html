@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 23</title>
+
+    <style>
+        .tab-title-wrap {
+            display: flex;
+            gap: 30px;
+        }
+
+        .tab-title-item {
+            padding: 10px 20px;
+            border: 1px solid red;
+        }
+
+        .tab-title-item:hover, .tab-active {
+            background-color: red;
+            color: white;
+        }
+
+        .show {
+            display: block;
+        }
+
+        .hide {
+            display: none;
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="tab-title-wrap">
+        <div class="tab-title-item">Tab 1</div>
+        <div class="tab-title-item">Tab 2</div>
+        <div class="tab-title-item">Tab 3</div>
+        <div class="tab-title-item">Tab 4</div>
+    </div>
+
+    <div class="div-tab-container">
+        <div class="tab-content">
+            <h2> <span>Hello</span> tab 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium modi, voluptas ducimus, vel rem
+                incidunt enim voluptatibus totam beatae aut quibusdam molestias fugit eos at debitis impedit
+                repellendus. Maiores, non.
+                <span class="text"> Lorem ipsum dolor sit amet consectetur</span>
+            </p>
+        </div>
+        <div class="tab-content">
+            <h2>Hello tab 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium modi, voluptas ducimus, vel rem
+                incidunt enim voluptatibus totam beatae aut quibusdam molestias fugit eos at debitis impedit
+                repellendus. Maiores, non.</p>
+        </div>
+        <div class="tab-content">
+            <h2>Hello tab 3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium modi, voluptas ducimus, vel rem
+                incidunt enim voluptatibus totam beatae aut quibusdam molestias fugit eos at debitis impedit
+                repellendus. Maiores, non.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ratione magnam veniam reiciendis minus
+                eveniet, repellendus error vel quia, corporis sunt numquam ut explicabo inventore est, pariatur laborum
+                earum delectus.</p>
+        </div>
+        <div class="tab-content">
+            <h2>Hello tab 4</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium modi, voluptas ducimus, vel rem
+                incidunt enim voluptatibus totam beatae aut quibusdam molestias fugit eos at debitis impedit
+                repellendus. Maiores, non.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ratione magnam veniam reiciendis minus
+                eveniet, repellendus error vel quia, corporis sunt numquam ut explicabo inventore est, pariatur laborum
+                earum delectus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ratione magnam veniam reiciendis minus
+                eveniet, repellendus error vel quia, corporis sunt numquam ut explicabo inventore est, pariatur laborum
+                earum delectus.</p>
+        </div>
+    </div>
+
+    <h2>Hello tab 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium modi, voluptas ducimus, vel rem
+                incidunt enim voluptatibus totam beatae aut quibusdam molestias fugit eos at debitis impedit
+                repellendus. Maiores, non.
+                <span class="text"> Lorem ipsum dolor sit amet consectetur</span>
+            </p>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+.tab-content h2 {
+  color: rgb(224, 22, 190);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tab-content h2 span {
+  color: red;
+}
+.tab-content h2 span:hover {
+  color: rgb(224, 22, 190);
+}
+.tab-content .text {
+  color: rgb(224, 22, 190);
+}/*# sourceMappingURL=style.css.map */
